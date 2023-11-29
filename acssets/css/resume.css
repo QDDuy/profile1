@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  background-color: transparent;
+}
+
+header {
+  display: flex;
+}
+
+.font-worksans{
+  font-family: "Work Sans", sans-serif;
+  font-weight: 300;
+}
+.bold{
+  font-weight: bold;
+  font-size: 18px;
+}
+.row {
+  height: 77px;
+}
+.header-left {
+  font-family: "Work Sans", sans-serif;
+  line-height: 73px;
+  display: flex;
+  margin-left: 30px;
+}
+.header-left a {
+  padding: 0 10px;
+  font-weight: bold;
+  font-size: 22px;
+  text-decoration: none;
+  color: black;
+}
+.circle p {
+  width: 25px;
+  height: 25px;
+  background-color: aquamarine;
+  border-radius: 50%;
+  padding-top: 15px;
+  margin-top: 25px;
+}
+
+.header-left span {
+  font-size: 16px;
+  font-weight: 400;
+}
+.header-right li {
+  display: inline-flex;
+  line-height: 77px;
+  padding: 0 10px;
+}
+.header-right li a {
+  font-size: 16px;
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  color: #000;
+}
+
+.header-right a:hover {
+  color: chocolate;
+}
+
+.header-right {
+  padding: 0;
+  margin-left: 15px;
+}
+
+
+.container h1{
+  padding-top: 75px;
+  font-family: "Work Sans", sans-serif;
+  font-weight: 600;
+  font-size: 42px;
+}
+
+
+.list-resume {
+  display: flex;
+  margin-top: 75px;
+}
+
+.experience {
+  display: flex;
+  margin-bottom: 60px;
+
+}
+
+.nav-left>p{
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  font-size: 26px;
+  line-height: 1.1;
+}
+.experience-left p{
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+}
+.experience-right>p{
+  font-weight: bold;
+  font-size: 18px;
+}
+.text p{
+  font-family: "Work Sans", sans-serif;
+  font-size: 16px;
+  font-weight: 350;
+}
+.ngang {
+  width: 90%;
+  border: 1px solid #000;
+  background-color: 1px solid #000;
+  margin: 50px 0px 10px 5%;
+
+}
+
+footer{
+  height: 183px;
+}
+.container-footer{
+  display: flex;
+  margin:30px 80px ;
+}
+
+.folow a{
+  color: #000;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+
+/*--------------------------------------------Project-------------------------------------------------*/
+
+
+.nav-project-right img{
+  width: 491px;
+  height: 331px;
+  object-fit: fill;
+  border-radius: 20px;
+}
+
+.list-project{
+  margin-top: 150px;
+}
+
+.nav-project-left .title{
+  font-size: 26px;
+  font-weight: 650;
+}
+
+.ngang-project{
+  margin-top: 100px;
+}
+
+/*---------------------------------------------Contact-------------------------*/
+
+.list-contact{
+  display: flex;
+  
+}
+form {
+  width: 300px;
+  margin: 0 auto;
+ }
+ 
+ label {
+  font-weight: bold;
+ }
+ 
+ input[type=text],
+ input[type=email],
+ textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+ }
+ 
+ input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+ }
+ 
+ input[type=submit]:hover {
+  background-color: #45a049;
+ }
