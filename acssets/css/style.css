@@ -13,159 +13,132 @@
     margin-right: 235px;
  }
 
-#header{
-    height: 77px;
-}
-.header{
-    display: inline-flex;
-}
-.header-left{
-    width: 392px;
+ .vang{
+    background-color: #eea302;
+ }
+ .do{
+    background-color: #ff3b05;
+ }
+ .xanh{
+    background-color: #80d8da;
+ }
+ header {
     display: flex;
-}
-
-.header-left {
-    font-family: 'Work Sans', sans-serif;
+    height: 77px;
+  }
+  
+  .font-worksans{
+    font-family: "Work Sans", sans-serif;
+  }
+  .bold{
+    font-weight: bold;
+    font-size: 18px;
+  }
+  .row {
+    height: 77px;
+  }
+  .header-left {
+    font-family: "Work Sans", sans-serif;
     line-height: 73px;
-    /* margin-left: 30px; */
-}
-
- .circle p{
+    display: flex;
+  }
+  .header-left a {
+    padding: 0 10px;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+  }
+  .circle p {
     width: 25px;
     height: 25px;
     background-color: aquamarine;
     border-radius: 50%;
     padding-top: 15px;
     margin-top: 25px;
-}
-.header-left a{
-    padding: 0 10px;
-    font-weight: bold;
-    font-size: 22px;
-    text-decoration: none;
-    color: black;
-}
-
-.header-left span{
+  }
+  
+  .header-left span {
     font-size: 16px;
     font-weight: 400;
-}
-.header-right {
-    width:400px;
-    line-height: 73px;
-    margin-left: 690px;
-}
-
-.header-right li{
-    display: inline-block;
+  }
+  .header-right li {
+    display: inline-flex;
+    line-height: 77px;
     padding: 0 10px;
-   
-}
-
-.header-right li a{
+  }
+  .header-right li a {
     font-size: 16px;
-    font-family: 'Work Sans', sans-serif;
+    font-family: "Work Sans", sans-serif;
     text-decoration: none;
     color: #000;
-}
-
-.header-right a:hover{
+  }
+  
+  .header-right a:hover {
     color: chocolate;
-}
-
-
-
+  }
+  
+  .header-right {
+    padding: 0;
+    margin-left: 15px;
+  }
+  
+/* ------------------------------------------Seccsion-------------------------------------------- */
 .nav{
-    width: 90%;
-    height: 780px;
-    display: flex;
+    margin-top: 135px;
+    height: 700px;
 }
-
-.nav-right img{
+.nav-left img{
+    width: 480px;
+    height: 480px;
+    border-radius: 50%;
     object-fit: cover;
-    max-width: 480px;
-    height: auto;
-    margin: 135px 0 0 266px;
-    border-radius: 50%;
+}
+.nav-right{
+    margin-left: 15px;
+
 }
 
-
-.nav .nav-left{
-    width: 100%;
-}
-
-.nav-left{
-    margin: 171px 266px 0 50px;
-}
-
-.nav-left .hello{
+.nav-right .hello p{
     font-size: 100px;
-    font-family: 'Work Sans', sans-serif;
-    margin-bottom: 30px;
     font-weight: 600;
 }
 
-.nav-left .introduce{
+.nav-right .introduce p{
     font-size: 22px;
-    font-family: 'Work Sans', sans-serif;
     font-weight: 600;
-    margin-bottom: 15px;
 }
 
-.nav-left .introduce-text{
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 370;
+.nav-right .introduce-text{
+    width: 371px;
+}
+.nav-right .introduce-text p{
     line-height: 1.4;
-    margin-right: 65px;
+    font-weight: 300;
+    font-size: 16px;
 }
 
-.list-item{
-    display: flex;
-    margin: 30px 0 0 -15px;
-}
-.list-item a{
-    text-decoration: none;
-    color: #000;
 
-}
-.list-item .resume{
-    width: 140px;
-    height: 140px;
-    font-family: 'Work Sans', sans-serif;
-    background-color: #eea302;
-    border-radius: 50%;
-    line-height: 140px;
-    text-align: center;
-    list-style: none;
-    border: 1.5px solid;
-    font-weight: bold;
-}
-.list-item .project{
-    width: 140px;
-    height: 140px;
-    font-family: 'Work Sans', sans-serif;
-    background-color: #ff3b25;
-    border-radius: 50%;
-    line-height: 140px;
-    text-align: center;
-    list-style: none;
-    border: 1.5px solid;
-    margin: 0 15px;
-    font-weight: bold;
-}
-.list-item .contact{
-    width: 140px;
-    height: 140px;
-    font-family: 'Work Sans', sans-serif;
-    background-color: #80d8da;
-    border-radius: 50%;
-    line-height: 140px;
-    text-align: center;
-    list-style: none;
-    border: 1.5px solid;
-    font-weight: bold;
+.nav-right .list-item{
+    margin-top: 30px;
 }
 
+.nav-right .list-item button{
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 1px solid #7b7979;
+    margin-right: 15px;
+    font-size: 22px;
+    font-weight: 600;
+}
+.nav-right .list-item button:hover{
+    background-color: transparent;
+    transition:background-color 0.9s ease;
+}
+
+
+/* -------------------------------------------Footer--------------------------------------------- */
  .ngang{
     width: 1280px;
     height: 1px;

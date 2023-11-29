@@ -1,14 +1,19 @@
 $(document).ready(function () {
     $('img').hide();
     $(' img').each(function(index) {
-        $(this).delay(1000 * index).slideDown(600); 
+        $(this).delay(2000 * index).fadeIn(2000); 
     });
 
-    $('.nav-left').hide();
-    $('.nav-left').each(function(index) {
-        $(this).delay(1000 * index).slideDown(200); 
+    $('.nav-right').hide();
+    $('.nav').animate( {
+        marginTop:100
+    },1000);
+    $('.nav-right').each(function(index) {
+        $(this).delay(2000 * index).fadeIn(2000); 
     });
-    
+    $('.list-item ').animate( {
+        marginTop:-10
+    },700);
 
     $('.header-left').animate( {
         marginLeft:30 

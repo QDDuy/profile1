@@ -6,24 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Profile</title>
     <link rel="stylesheet" href="acssets/css/style.css">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
     <script src="https://code.jquery.com/jquery-3.7.1.js"
         integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="index.js"></script>
-    
 </head>
 
 <body>
-    <header id="header" class="header">
-        <div class="header-left">
-            <div class="circle">
+    <header>
+        <div class="header-left col-md-8 ">
+            <div class="circle ">
                 <p></p>
             </div>
-            <a href="">Daniel Quach <span>Deverloper</span></a>
-
+            <a href="index.html">Daniel Quach <span>Deverloper</span></a>
         </div>
 
-        <div class="header-right">
+        <div class="header-right col-md-4">
             <ul>
                 <li><a href="resume.html">Resume </a></li>
                 <li class="Ngan">|</li>
@@ -32,15 +34,16 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
+
     </header>
 
-    <div class="nav">
-        <div class="nav-right">
+    <div class="nav font-worksans">
+        <div class="nav-left col-md-4 offset-2">
             <img src="acssets/img/394675544_657996023066294_411537820549251201_n.jpg" alt="">
 
         </div>
 
-        <div class="nav-left">
+        <div class="nav-right col-md-5">
             <div class="hello">
                 <p>Hello</p>
             </div>
@@ -54,9 +57,11 @@
             </div>
 
             <div class="list-item">
-                <li class="resume"><a href="resume.html">Resume</a></li>
-                <li class="project"><a href="project.html">Project</a></li>
-                <li class="contact "><a href="contact.html">Contact</a></li>
+                
+                <a href="resume.html"> <button  class="vang" type="button">Resume</button></a>
+                <a href="project.html"><button class="do" type="button">Projects</button> </a>
+                <a href="contact.html"><button class="xanh" type="button">Contact</button>
+</a>
             </div>
         </div>
     </div>
