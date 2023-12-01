@@ -1,0 +1,24 @@
+@media (max-width: 740px){
+  
+    .header-right ul{
+        display: none;
+    }
+
+    .bx bx-menu{
+        line-height: 76px;
+        justify-items: center;
+       
+        
+    }
+    .header-right .btnMenu{
+        justify-items: center;
+        margin: auto;
+        font-size: 30px;
+    }
+    .nav-left img{
+        width: 280px;
+        height: 280px;
+    }
+
+
+}
