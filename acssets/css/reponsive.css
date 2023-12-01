@@ -20,5 +20,8 @@
         height: 280px;
     }
 
+    footer{
+        display: block;
+    }
 
 }
