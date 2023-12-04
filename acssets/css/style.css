@@ -83,6 +83,9 @@ header {
   margin-left: 15px;
 }
 
+.header-menu{
+  display: none;
+}
 /* ------------------------------------------Seccsion-------------------------------------------- */
 .nav {
   margin-top: 135px;

@@ -7,10 +7,16 @@
     line-height: 76px;
     justify-items: center;
   }
-  .header-right .btnMenu {
-    justify-items: center;
-    margin: auto;
+  .header-menu i.bx.bx-menu {
     font-size: 30px;
+    line-height: 70px;
+}
+
+  .header-menu{
+    display: block;
+  }
+  .header-right{
+    display: none;
   }
   .nav-left img {
     width: 280px;
